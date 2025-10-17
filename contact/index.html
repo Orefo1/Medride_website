@@ -1266,7 +1266,7 @@
                           ><span
                             class="__cf_email__"
                             data-cfemail="f499959d98b4979b9984959a8dda979b99"
-                            >info@medrides.com</span
+                            >info@medrides.ca</span
                           ></span
                         ></a
                       >
@@ -1287,8 +1287,8 @@
                       <a id="guten-6ArRbR"
                         ><i class="fas fa-location"></i
                         ><span class="list-text"
-                          >901 Laselle Blvd, Suite 0912, Sudbury ON P3A 1X8
-                        </span></a
+                          >901 Laselle Blvd, Suite 0912, Sudbury ON P3A 1X8 </span
+                        ></a
                       >
                     </div>
                   </div>
@@ -1599,10 +1599,10 @@
                         <h3 class="title">Email</h3>
                         <p class="icon-box-description">
                           <a
-                            href="mailto:info@medride.com"
+                            href="mailto:info@medrides.ca"
                             class="__cf_email__"
                             data-cfemail="d1a2a4a1a1bea3a591b5bebcb0b8bfffb2bebc"
-                            >info@medride.com</a
+                            >info@medrides.ca</a
                           >
                         </p>
                       </div>
@@ -1715,121 +1715,203 @@
                 class="wp-block-gutenverse-column guten-element guten-column guten-cotxqj animated guten-element-hide desktop-fadeInUp"
               >
                 <div class="guten-column-wrapper" data-id="cotxqj">
-                  <form
-                    style="display: none"
-                    class="guten-element guten-form-builder guten-z2axdh"
-                    data-form-id="69"
-                  >
-                    <div class="section-wrapper" data-id="zl774s">
-                      <section
-                        class="wp-block-gutenverse-section guten-element guten-section guten-zl774s layout-fullwidth align-stretch"
-                      >
-                        <div class="guten-container guten-column-gap-no">
-                          <div
-                            class="wp-block-gutenverse-column guten-element guten-column guten-ysV347"
-                          >
-                            <div class="guten-column-wrapper" data-id="ysV347">
-                              <div
-                                class="guten-element guten-form-input-text guten-form-input guten-input-position-top guten-27sDz6 hide-helper"
-                              >
-                                <div class="label-wrapper">
-                                  <label class="input-label">Name</label>
-                                </div>
-                                <div class="main-wrapper">
-                                  <input
-                                    data-validation='{"type":"text","required":false,"validationType":"none","validationWarning":"Input Invalid"}'
-                                    placeholder="Your  Name"
-                                    name="input-text-name"
-                                    class="gutenverse-input gutenverse-input-text"
-                                    type="text"
-                                  />
-                                  <div class="validation-error">
-                                    Input Invalid
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                  
 
-                          <div
-                            class="wp-block-gutenverse-column guten-element guten-column guten-1Xosn3"
-                          >
-                            <div class="guten-column-wrapper" data-id="1Xosn3">
-                              <div
-                                class="guten-element guten-form-input-email guten-form-input guten-input-position-top guten-UeTDJq hide-helper"
-                              >
-                                <div class="label-wrapper">
-                                  <label class="input-label">Email</label>
-                                </div>
-                                <div class="main-wrapper">
-                                  <input
-                                    data-validation='{"type":"email","required":false,"validationType":"none","validationWarning":"Input Invalid"}'
-                                    placeholder="Your Email"
-                                    name="input-email"
-                                    class="gutenverse-input gutenverse-input-email"
-                                    type="email"
-                                  />
-                                  <div class="validation-error">
-                                    Input Invalid
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
+<form 
+  action="../process-contact.php" 
+  method="POST" 
+  id="contactForm"
+  class="medride-form"
+>
+  <h3 class="form-title">Get in Touch</h3>
 
-                    <div
-                      class="guten-element guten-form-input-text guten-form-input guten-input-position-top guten-ADawEB hide-helper"
-                    >
-                      <div class="label-wrapper">
-                        <label class="input-label">Subject</label>
-                      </div>
-                      <div class="main-wrapper">
-                        <input
-                          data-validation='{"type":"text","required":false,"validationType":"none","validationWarning":"Input Invalid"}'
-                          placeholder="Subject"
-                          name="input-text-name"
-                          class="gutenverse-input gutenverse-input-text"
-                          type="text"
-                        />
-                        <div class="validation-error">Input Invalid</div>
-                      </div>
-                    </div>
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="input-text-name" placeholder="Enter your name" required>
+  </div>
 
-                    <div
-                      class="guten-element guten-form-input-textarea guten-form-input guten-input-position-top guten-D0yeiv hide-helper"
-                    >
-                      <div class="label-wrapper">
-                        <label class="input-label">Message</label>
-                      </div>
-                      <div class="main-wrapper">
-                        <textarea
-                          data-validation='{"type":"textarea","required":false,"validationType":"none","validationWarning":"Input Invalid"}'
-                          placeholder="Message"
-                          name="input-textarea"
-                          class="gutenverse-input gutenverse-input-text"
-                        ></textarea>
-                        <div class="validation-error">Input Invalid</div>
-                      </div>
-                    </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="input-email" placeholder="Enter your email" required>
+  </div>
 
-                    <div
-                      class="guten-element guten-button-wrapper guten-submit-wrapper guten-Taik77"
-                    >
-                      <div class="form-notification"></div>
-                      <button
-                        class="guten-button gutenverse-input-submit guten-button-sm"
-                        type="submit"
-                      >
-                        <span>Send Message</span>
-                      </button>
-                      <div class="gutenverse-input-submit-loader">
-                        <i class="fas fa-spinner fa-spin"></i>
-                      </div>
-                    </div>
-                  </form>
+  <div class="form-group">
+    <label for="message">Your Message</label>
+    <textarea id="message" name="input-textarea" placeholder="Type your message here..." rows="5" required></textarea>
+  </div>
+
+  <button type="submit" class="btn-submit">
+    <span>Send Message</span>
+    <i class="fas fa-paper-plane" style="margin-left:8px;"></i>
+  </button>
+
+  <div id="responseMessage" class="response-box" style="display:none;"></div>
+</form>
+
+<style>
+.medride-form {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+}
+
+.medride-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.form-title {
+  color: #111;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: left;
+  border-left: 5px solid #ffb400;
+  padding-left: 12px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.medride-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #222;
+  font-size: 15px;
+}
+
+.medride-form input,
+.medride-form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #333;
+  background-color: #fdfdfd;
+  transition: all 0.25s ease;
+}
+
+.medride-form input:focus,
+.medride-form textarea:focus {
+  border-color: #ffb400;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(255,180,0,0.3);
+  outline: none;
+}
+
+.btn-submit {
+  background: #ffb400;
+  color: #000;
+  border: none;
+  border-radius: 40px;
+  padding: 13px 34px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(255,180,0,0.4);
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-submit:hover {
+  background: #e3a300;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255,180,0,0.5);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+.response-box {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px 14px;
+  border-radius: 8px;
+  animation: fadeIn 0.4s ease;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.response-box.fade-out {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .medride-form {
+    padding: 25px 20px;
+    max-width: 100%;
+  }
+  .btn-submit {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const responseBox = document.getElementById("responseMessage");
+
+  responseBox.style.display = "block";
+  responseBox.classList.remove("fade-out");
+  responseBox.style.background = "#fef6e4";
+  responseBox.style.color = "#555";
+  responseBox.innerText = "⏳ Sending your message...";
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: new FormData(form)
+    });
+    const result = await response.text();
+
+    if (result.includes("success")) {
+      responseBox.style.background = "#e8fbe8";
+      responseBox.style.color = "#097a09";
+      responseBox.innerText = "✅ Thank you! Your message has been sent successfully.";
+      form.reset();
+    } else {
+      responseBox.style.background = "#fdecea";
+      responseBox.style.color = "#b30000";
+      responseBox.innerText = "❌ Sorry, something went wrong. Please try again later.";
+    }
+  } catch (error) {
+    responseBox.style.background = "#fdecea";
+    responseBox.style.color = "#b30000";
+    responseBox.innerText = "⚠️ Unable to reach the server. Please try again.";
+  }
+
+  // Fade out after 5 seconds
+  setTimeout(() => {
+    responseBox.classList.add("fade-out");
+    setTimeout(() => {
+      responseBox.style.display = "none";
+    }, 1000);
+  }, 5000);
+});
+</script>
+                 </form>
                 </div>
               </div>
             </div>
@@ -1875,7 +1957,7 @@
                   <h5
                     class="wp-block-gutenverse-heading guten-element guten-Di3RHQ"
                   >
-                    Need a Ride? We're Here to Help.
+                    Need a Ride? We're Here to Help. 
                   </h5>
 
                   <h2
@@ -1971,7 +2053,7 @@
                                     ><span
                                       class="__cf_email__"
                                       data-cfemail="412c20282d01222e2c31202f386f222e2c"
-                                      >info@medrides.com</span
+                                      >info@medrides.ca</span
                                     ></span
                                   ></a
                                 >
@@ -1983,7 +2065,7 @@
                                 <a id="guten-rwLJCz"
                                   ><i class="fas fa-check"></i
                                   ><span class="list-text"
-                                    >+1 (877)-464-3297</span
+                                    >+1 (887)-464-3297</span
                                   ></a
                                 >
                               </div>
@@ -2010,8 +2092,7 @@
                                 <a id="guten-GHlxdE"
                                   ><i class="fas fa-check"></i
                                   ><span class="list-text"
-                                    >Mon &#8211; Fri: 6:00&nbsp;AM -
-                                    10:00&nbsp;PM</span
+                                    >Mon &#8211; Fri: 6:00&nbsp;AM - 10:00&nbsp;PM</span
                                   ></a
                                 >
                               </div>
@@ -2046,7 +2127,9 @@
                           <div class="guten-column-wrapper" data-id="xFKInw">
                             <h3
                               class="wp-block-gutenverse-heading guten-element guten-rxyJ1p"
-                            ></h3>
+                            >
+                            
+                            </h3>
 
                             <form
                               style="display: none"

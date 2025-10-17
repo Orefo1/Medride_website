@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Ridek Online  Ride Booking  HTML5 Template"
+      content="Ridek Online Taxi Booking HTML5 Template"
     />
     <meta name="author" content="DynamicLayers" />
 
@@ -59,7 +59,7 @@
         <div class="car-detail center1"></div>
         <div class="car-detail front"></div>
         <div class="car-detail wheel"></div>
-        <div class="car-detail wheel wheel2"></div>
+        <div class="car-deReliable ail wheel wheel2"></div>
       </div>
     </div>
     <!--/.site-preloader-->
@@ -69,7 +69,10 @@
         <div class="container">
           <div class="top-header-wrap">
             <div class="top-left">
-              <p>Driven by Care. Defined by Purpose</p>
+              <p>
+                Providing eliable Transportation for nurses and medical Staff!
+              
+              </p>
             </div>
             <div class="top-right">
               <ul class="top-header-nav">
@@ -113,7 +116,7 @@
                 <div class="header-info-text">
                   <h3>
                     <span>Call us now</span
-                    ><a href="tel:+18774643297">+1 (877)-464-3297</a>
+                    ><a href="tel:+18874643297">+1 (887)-464-3297</a>
                   </h3>
                 </div>
               </li>
@@ -139,8 +142,8 @@
                 </div>
                 <div class="header-info-text">
                   <h3>
-                    <span>Address</span>901 Lasalle Blvd, Suite 912, Sudbury ON
-                    P3A 1X8
+                    <span>Address</span>0912-901 Laselle Blvd., Sudbury ON P3A
+                    1X8
                   </h3>
                 </div>
               </li>
@@ -230,10 +233,10 @@
           across the Sudbury.
         </p>
         <ul class="sidebox-list">
-          <li class="call"><span>Call for ride:</span>+1 (877)-464-3297</li>
+          <li class="call"><span>Call for ride:</span>+1 (887)-464-3297</li>
           <li>
-            <span>You can find us at:</span>901 Lasalle Blvd, Suite 0912,
-            Sudbury ON P3A 1X8
+            <span>You can find us at:</span>0912-901 Laselle Blvd., Sudbury ON
+            P3A 1X8
           </li>
           <li>
             <span>Email now:</span
@@ -295,15 +298,15 @@
                   <div class="slider-caption medium">
                     <div class="inner-layer">
                       <div data-animation="fade-in-bottom" data-delay="0.3s">
-                        Driven by care, defined by purpose!
+                        Move securely with us!
                       </div>
                     </div>
                   </div>
                   <div class="slider-caption big">
                     <div class="inner-layer">
                       <div data-animation="fade-in-bottom" data-delay="0.5s">
-                        Powering the <br />
-                        journey of care!
+                        Reliable access to care<br />
+                        and safe transportation!
                       </div>
                     </div>
                   </div>
@@ -375,16 +378,15 @@
                   <div class="slider-caption medium">
                     <div class="inner-layer">
                       <div data-animation="fade-in-bottom" data-delay="0.3s">
-                        Compassionate and Professional!
+                        Redefining safety and reliability!
                       </div>
                     </div>
                   </div>
                   <div class="slider-caption big">
                     <div class="inner-layer">
                       <div data-animation="fade-in-bottom" data-delay="0.5s">
-                        Driving healthcare <br />
-                        forward, where every<br />
-                        ride reflects care
+                        MedRides ensures on-time<br />
+                        and stress-free travel
                       </div>
                     </div>
                   </div>
@@ -396,8 +398,7 @@
                         data-duration="1s"
                       >
                         Everything your medical ride service needs is here
-                        <br />transportation made easy, reliable, and
-                        accessible.
+                        <br />transportation made easy, reliable, and accessible.
                       </div>
                     </div>
                   </div>
@@ -490,7 +491,7 @@
               <li>
                 <h2>
                   <span>Call For your Ride</span
-                  ><a href="tel:+18774643297">+1 (877)-464-3297</a>
+                  ><a href="tel:+18874643297">+1 (887)-464-3297</a>
                 </h2>
               </li>
             </ul>
@@ -1014,7 +1015,7 @@
                     <li>Passengers: <span>4 Person</span></li>
                     <li>
                       <a href="book-taxi.html" class="default-btn"
-                        >Book  Now</a
+                        >Book Taxi Now</a
                       >
                     </li>
                   </ul>
@@ -1362,8 +1363,8 @@
           <div class="cta-call">
             <i class="las la-phone-volume"></i>
             <p>
-              <span>Call For Ride</span
-              ><a href="tel:+18774643297">+1 (877)-464-3297</a>
+              <span>Call For Taxi</span
+              ><a href="tel:+18874643297">+1 (887)-464-3297</a>
             </p>
           </div>
         </div>
@@ -1481,10 +1482,9 @@
                     ><img src="assets/img/logo-light.png" alt="logo"
                   /></a>
                   <p>
-                    MedRide by Miracle, driven by care, defined by purpose.We
-                    are a trusted medical transportation service dedicated to
-                    safely and reliably commute healthcare professionals and
-                    patients to their destinations.
+                    MedRide is a trusted medical transportation service
+                    dedicated to safely and reliably commute healthcare
+                    professionals and patients to their destinations.
                   </p>
                 </div>
               </div>
@@ -1492,8 +1492,8 @@
                 <div class="footer-call">
                   <i class="las la-phone-volume"></i>
                   <p>
-                    <span>Call For Ride</span
-                    ><a href="tel:+18774643297">+1 (877)-464-3297</a>
+                    <span>Call For Taxi</span
+                    ><a href="tel:+18874643297">+1 (887)-464-3297</a>
                   </p>
                 </div>
               </div>
@@ -1511,9 +1511,9 @@
                   <h3>Working Hours</h3>
                 </div>
                 <ul class="footer-contact">
-                  <li><span>Monday - Friday</span>6.00am - 10.00pm</li>
-                  <li><span>Saturday</span>6.00am - 10.00pm</li>
-                  <li><span>Sunday</span>6:00 AM – 10:00 PM</li>
+                  <li><span>Monday - Friday:</span>8.00am To 10.00pm</li>
+                  <li><span>Saturday:</span>10.00am To 10.30pm</li>
+                  <li><span>Sunday:</span>Close Day!</li>
                 </ul>
               </div>
             </div>
@@ -1523,7 +1523,7 @@
                   <h3>Usefull Links</h3>
                 </div>
                 <ul class="footer-links">
-                  <li><a href="book-taxi.html">Ride Booking</a></li>
+                  <li><a href="book-taxi.html">Taxi Booking</a></li>
                   <li><a href="faqs/index.html">Help Center</a></li>
                   <li><a href="about_us.html">About Us</a></li>
                   <li><a href="services.html">Our Services</a></li>
@@ -1538,7 +1538,7 @@
                 </div>
                 <ul class="footer-contact">
                   <li>
-                    <span>Location:</span>901 Laselle Blvd., Sudbury ON P3A
+                    <span>Location:</span>0912-901 Laselle Blvd., Sudbury ON P3A
                     1X8
                   </li>
                   <li>
@@ -1548,7 +1548,7 @@
                       class=""
                       style="color: white"
                       data-cfemail="541d3a323b140d3b21261339353d3866607a373b39"
-                      >info@medrides.com</a
+                      >info@medride.com</a
                     >
                   </li>
                 </ul>
@@ -1557,7 +1557,7 @@
             <div class="col-lg-3 col-md-6 sm-padding">
               <div class="footer-item subscribe-wrap">
                 <div class="widget-title">
-                  <h3></h3>
+                  <h3>Newsletter Signup</h3>
                 </div>
                 <form action="#" class="subscribe-form">
                   <input
@@ -1572,7 +1572,7 @@
                     name="action"
                     value="mailchimpsubscribe"
                   />
-                  <button class="submit"></button>
+                  <button class="submit">Subscribe Now</button>
                   <div class="clearfix"></div>
                   <div id="subscribe-result">
                     <div class="subscription-success"></div>
